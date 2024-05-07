@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { Box } from '@mui/material';
-import ChatBody from './chat/chatBody';
+import ChatBody from './maincomp/chatBody';
 
 function App() {
   return (
