@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.imgProfile{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.iconImg{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  object-fit: cover;
+}
