@@ -4,15 +4,15 @@ import React from 'react'
 const UserInfo = () => {
   return (
     <Grid>
-        <Box>
-          <Box>
-            <img src='/avatar.png'/>
-            <Typography variant='h4'>Hemraj Mahawar</Typography>
+        <Box sx={{padding:"20px",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+          <Box sx={{display:"flex",alignItems:"center", gap:"20px"}}>
+            <img className='imgProfile' src='/avatar.png' alt=''/>
+            <Typography variant='h5'>John Doe</Typography>
           </Box>
-            <Box>
-                <img src='/more.png'></img>
-                <img src='/video.png'></img>
-                <img src='/edit.png'></img>
+            <Box sx={{display:"flex",gap:"20px"}}>
+                <img className='iconImg' src='/more.png' alt=''></img>
+                <img className='iconImg' src='/video.png' alt=''></img>
+                <img className='iconImg' src='/edit.png' alt=''></img>
             </Box>
         </Box>
     </Grid>
