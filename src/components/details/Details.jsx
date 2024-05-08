@@ -1,8 +1,9 @@
+import { Grid } from '@mui/material'
 import React from 'react'
 
 function Details() {
   return (
-    <div>Details</div>
+    <Grid sx={{flex:"1"}}>Details</Grid>
   )
 }
 

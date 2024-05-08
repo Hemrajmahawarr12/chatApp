@@ -1,8 +1,9 @@
+import { Grid } from '@mui/material'
 import React from 'react'
 
 function Chat() {
   return (
-    <div>Chat</div>
+    <Grid sx={{flex:"2"}}>Chat</Grid>
   )
 }
 
