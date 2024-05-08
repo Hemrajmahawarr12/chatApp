@@ -1,9 +1,8 @@
-import { Grid } from '@mui/material'
 import React from 'react'
 
-const Details = () => {
+function Details() {
   return (
-    <Grid sx={{flex:"1"}}>Details</Grid>
+    <div>Details</div>
   )
 }
 
